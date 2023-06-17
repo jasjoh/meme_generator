@@ -1,0 +1,46 @@
+.my_form_row_main {
+  background-color: rgb(227, 251, 251);
+  height: 400px;
+}
+
+.my_spacer_col {
+  background-color: rgb(248, 219, 219);
+}
+
+.my_form_label{
+  background-color: rgb(227, 227, 255);
+}
+
+.my_form_input{
+  background-color: rgb(255, 255, 231);
+}
+
+.meme_text{
+  font-size: 2em;
+  text-shadow: 2px 2px 4px black, -2px -2px 4px black;
+}
+
+.meme_text_top{
+  top:10px;
+}
+
+.meme_text_bottom{
+  top:calc(100% - 2em);
+}
+
+.my_relative{
+  position: relative;
+  width: 350px;
+}
+
+.my_absolute{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.remove_button{
+  width: 350px;
+  height: 30px;
+  background-color: grey;
+}
