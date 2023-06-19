@@ -76,7 +76,7 @@ window.onload = function() {
     } else {
       // one or more rows exist
       // check if last row is full
-      memeCount = memeRows[memeRows.length - 1].childElementCount;
+      let memeCount = memeRows[memeRows.length - 1].childElementCount;
       if (memeCount < 3) {
         // row is not full so add new meme to existing (last) row
         memeRows[memeRows.length - 1].appendChild(newMemeDiv);
